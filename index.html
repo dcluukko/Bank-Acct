@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 	<link href="css/styles.css" rel="stylesheet" type="text/css">
@@ -7,23 +8,23 @@
 	<script src="js/scripts.js"></script>
 	<title>Bank Account</title>
 </head>
+
 <body>
 	<form id="name-initDept">
-	<div class="row">
-		<div class="col-md-6">
-			<h2>Register a new account:</h2>
-			<div class="form-group">
-					<label for="name">Name:</label>
-					<input type="text" class="form-control" id="name">
-			</div>
-			<div class="form-group">
-				<label for="initialDeposit">Initial Deposit:</label>
-				<input type="text" class="form-control" id="initialDeposit">
-			</div>
-	</div>	
-</form>
+		<h2>Register a new account:</h2>
+		<div class="form-group">
+			<label for="name">Name:</label>
+			<input type="text" class="form-control" id="name">
+		</div>
+		<div class="form-group">
+			<label for="initialDeposit">Initial Deposit:</label>
+			<input type="text" class="form-control" id="initialDeposit">
+		</div>
+
+		<button type="submit" class="btn-createacct">Create Account</button>
+	</form>
 	<form id="deposit-withdrawl">
-	<h2>Deposit or withdraw</h2>
+		<h2>Deposit or withdraw</h2>
 		<div class="form-group">
 			<label for="deposit">Deposit Amount:</label>
 			<input type="text" class="form-control" id="deposit">
@@ -32,15 +33,14 @@
 			<label for="withdraw">Withdraw Amount:</label>
 			<input type="text" class="form-control" id="withdraw">
 		</div>
-	</div>
-	<div class="row">
-		<div class="col-md-12">
-			<h2>Current Balance:</h2>
-			<div id="balance">
-			</div>
-			</div>
 		</div>
+		<button type="submit" class="btn-deposit-withdraw">Deposit/Withdraw</button>
 	</form>
+	<h2>Current Balance:</h2>
+	<div id="balance">
+	</div>
+	</div>
 	</div>
 </body>
+
 </html>
