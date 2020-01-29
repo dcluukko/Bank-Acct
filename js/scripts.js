@@ -24,5 +24,6 @@ $(document).ready(function () {
   var InitDeposit = parseInt($("input#initialDeposit").val());
   var Deposit = parseInt($("input#deposit").val());
   var withdraw = parseInt($("input#withdraw").val());
-
+  var addDepositToInitDep = InitDeposit + Deposit
+  var addDepositToInitDep = new Account 
 });
